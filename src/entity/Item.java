@@ -125,6 +125,10 @@ public class Item {
 		public Item build() {
 			return new Item(this);
 		}
+		
+//		public static void main() {
+//			Item item = new Item.ItemBuilder().setAddress("abc").setUrl("bcd").build(); 
+//		}
 	}
 
 
