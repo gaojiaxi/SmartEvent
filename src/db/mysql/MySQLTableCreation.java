@@ -7,6 +7,7 @@ import java.sql.Connection;
 
 public class MySQLTableCreation {
 	// Run this as Java application to reset db schema.
+	// This class is mainly used for testing database function.
 	public static void main(String[] args) {
 		try {
 			// This is java.sql.Connection. Not com.mysql.jdbc.Connection.
@@ -83,11 +84,12 @@ public class MySQLTableCreation {
 			stmt.executeUpdate(sql);
 			
 			//Step 4 insert data.
-			//Crate a fake user
-			sql = "INSERT INTO users VALUES ("
-					+ "'1111', '3229c1097c00d497a0fd282d586be050', 'John', 'Smith')";
-			System.out.println("Executing query: " + sql);
-			stmt.executeUpdate(sql);
+			//Crate a fake user.
+			//
+//			sql = "INSERT INTO users VALUES ("
+//					+ "'1111', '3229c1097c00d497a0fd282d586be050', 'John', 'Smith')";
+//			System.out.println("Executing query: " + sql);
+//			stmt.executeUpdate(sql);
 			
 			System.out.println("Import is done successfully.");
 		} catch (Exception e) {
