@@ -143,7 +143,8 @@ public class TicketMasterAPI {
 			 }
 			 
 			 if (!event.isNull("url")) {
-				 builder.setImageUrl(event.getString("url"));
+				 String url = event.getString("url");
+				 builder.setUrl(event.getString("url"));
 			 }
 			 
 			 if (!event.isNull("rating")) {
@@ -235,7 +236,7 @@ public class TicketMasterAPI {
 	public static void main(String[] args) {
 		TicketMasterAPI tmApi = new TicketMasterAPI();
 		// Mountain View, CA
-		// tmApi.queryAPI(37.38, -122.08);
+		tmApi.queryAPI(37.38, -122.08);
 		// London, UK
 		// tmApi.queryAPI(51.503364, -0.12);
 		// Houston, TX
