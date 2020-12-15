@@ -57,13 +57,13 @@ Run the imported project by “right-clicking” on the new project and selectin
 
 ## Screenshots
 logic/high level structure of this project
-![](https://github.com/gaojiaxi/SmartEvent/tree/master/demoPictures/highLevelStructure.jpg)
+![](https://github.com/gaojiaxi/SmartEvent/blob/master/demoPictures/highLevelStructure.jpg)
 nearby page
-![](https://github.com/gaojiaxi/SmartEvent/tree/master/demoPictures/nearby.jpg)
+![](https://github.com/gaojiaxi/SmartEvent/blob/master/demoPictures/nearby.jpg)
 favorite page
-![](https://github.com/gaojiaxi/SmartEvent/tree/master/demoPictures/favorite.jpg)
+![](https://github.com/gaojiaxi/SmartEvent/blob/master/demoPictures/favorite.jpg)
 recommendation page
-![](https://github.com/gaojiaxi/SmartEvent/tree/master/demoPictures/recommendation.jpg)
+![](https://github.com/gaojiaxi/SmartEvent/blob/master/demoPictures/recommendation.jpg)
 
 
 ## Todo list
