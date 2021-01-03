@@ -20,10 +20,28 @@ public class MongoDBTableCreation {
 			IndexOptions options = new IndexOptions().unique(true);
 			// set user_id and item_id as the unique index for "users" collections and "items" collections
 			// new Document("user_id", 1); 1 means ordered in ascending order.
+			// MongoDB createIndex syntax:
+//			db.items.createIndex(
+//					{
+//					“User_id”: 1
+//					},
+//					{
+//					“Unique”: true
+//					})
 			db.getCollection("users").createIndex(new Document("user_id", 1), options);
 			db.getCollection("items").createIndex(new Document("item_id", 1), options);
 			
 			// Step 4, insert fake user data and create index.
+			
+//			MongoDB insertOne syntax.
+//			db.items.insertOne(
+//			{
+//			“user_id”: “1111”,
+//			“password”: “3229c1097c00d497a0fd282d586be050”,
+//			“first_name”: “John”,
+//			“last_name”: Smith,
+//			}
+//			)
 			db.getCollection("users").insertOne(
 			new Document()
 			.append("user_id", "1111")
