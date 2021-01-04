@@ -176,6 +176,9 @@ public class TicketMasterAPI {
         	e.printStackTrace();
         }
         
+        
+        lat = 37.38;
+        lon = -122.08;
         String geoHash = GeoHash.encodeGeohash(lat, lon, 8);
         
         String query = String.format("apikey=%s&geoPoint=%s&keyword=%s&radius=%s", API_KEY, geoHash, keyword, 50);
