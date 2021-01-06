@@ -89,6 +89,45 @@ ul {
 }
 
 /**
+* login form
+*/
+#loginform{
+	color: #624630;
+	margin: 0px auto;
+	overflow: auto;
+	padding: 40px;
+	width: 300px;
+}
+
+#loginform label {
+	display: block;
+}
+
+#loginform input {
+	border: none;
+	display: block;
+	arginbottom:
+	10px;
+	padding: 8px;
+	width: 100%;
+}
+
+#loginform button {
+	cursor: pointer;
+	float: right;
+	padding: 8px 20px;
+	textalign:
+	right;
+}
+
+#loginerror {
+	clear: both;
+	color: #990000;
+	paddingtop:
+	10px;
+}
+
+/**
  * main section
  */
 .main-section {
